@@ -20,6 +20,7 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-UNIVERSAL-require
 %endif
+Requires:	perl-dirs >= 1.0-5
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -56,5 +57,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changes README
 %{perl_vendorlib}/Module/Pluggable/*.pm
-# TODO: add Pluggable dir to perl-base
 %{_mandir}/man3/*
