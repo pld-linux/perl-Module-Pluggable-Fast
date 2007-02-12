@@ -6,7 +6,7 @@
 %define	pdir	Module
 %define	pnam	Pluggable-Fast
 Summary:	Module::Pluggable::Fast - Fast plugins with instantiation
-Summary(pl):	Module::Pluggable::Fast - szybkie wtyczki z tworzeniem instancji
+Summary(pl.UTF-8):   Module::Pluggable::Fast - szybkie wtyczki z tworzeniem instancji
 Name:		perl-Module-Pluggable-Fast
 Version:	0.16
 Release:	4
@@ -29,9 +29,9 @@ This module is similar to Module::Pluggable but instantiates plugins
 as soon as they're found, useful for code generators like
 Class::DBI::Loader.
 
-%description -l pl
-Ten modu≥ jest podobny do Module::Pluggable, ale tworzy instancje
-wtyczek zaraz po znalezieniu ich, co jest przydatne dla generatorÛw
+%description -l pl.UTF-8
+Ten modu≈Ç jest podobny do Module::Pluggable, ale tworzy instancje
+wtyczek zaraz po znalezieniu ich, co jest przydatne dla generator√≥w
 kodu, takich jak Class::DBI::Loader.
 
 %prep
