@@ -6,7 +6,7 @@
 %define	pdir	Module
 %define	pnam	Pluggable-Fast
 Summary:	Module::Pluggable::Fast - Fast plugins with instantiation
-Summary(pl.UTF-8):   Module::Pluggable::Fast - szybkie wtyczki z tworzeniem instancji
+Summary(pl.UTF-8):	Module::Pluggable::Fast - szybkie wtyczki z tworzeniem instancji
 Name:		perl-Module-Pluggable-Fast
 Version:	0.16
 Release:	4
