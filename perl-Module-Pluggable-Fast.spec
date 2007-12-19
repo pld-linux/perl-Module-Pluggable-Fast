@@ -8,13 +8,13 @@
 Summary:	Module::Pluggable::Fast - Fast plugins with instantiation
 Summary(pl.UTF-8):	Module::Pluggable::Fast - szybkie wtyczki z tworzeniem instancji
 Name:		perl-Module-Pluggable-Fast
-Version:	0.16
-Release:	4
+Version:	0.18
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	4939d93b4d1098f0559c89c4f7416b5d
+# Source0-md5:	37e511a6828448618b12bb85186f79b9
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
