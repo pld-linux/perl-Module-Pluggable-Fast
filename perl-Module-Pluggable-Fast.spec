@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Module
 %define	pnam	Pluggable-Fast
 Summary:	Module::Pluggable::Fast - Fast plugins with instantiation
